@@ -117,7 +117,6 @@ RSpec.describe AddressBook do
       check_entry(entry_three, "Robert", "555-555-1234", "robert@blocmail.com")
     end
   end
-
   # Test the iterative_search method
   describe "#iterative_search" do
     it "searches AddressBook for a non-existent entry" do
