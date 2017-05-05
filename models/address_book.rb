@@ -49,7 +49,7 @@ require "csv"
         return entry
       end
     end
-    
+
     return nil
   end
 
@@ -73,4 +73,9 @@ require "csv"
 
     return nil
   end
+
+  def demolish
+    @entries = []
+  end
+
 end
